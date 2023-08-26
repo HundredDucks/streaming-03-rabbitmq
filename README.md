@@ -61,7 +61,7 @@ As long as the process is running, we cannot use this terminal for other command
 
     The name of the queue is "hello." I originally just changed the body of the message in the v1_emit script's basic.publish() function and saw the received messages in the v1_listen output change. However, following the directions of creating a variable to update the body of the message that is received and what is displayed to the sender is more efficient.
 
-![Two Terminals Sending and Receiving Message Simultaneously](/streaming-03-rabbitmq\SendReceive_2Terminals.JPG)
+![Two Terminals Sending and Receiving Message Simultaneously](/streaming-03-rabbitmq/SendReceive_2Terminals.JPG)
 
 
 ## Version 1: Don't Repeat Yourself (DRY)
@@ -110,6 +110,3 @@ Each of the version 2 programs include an error as well.
 - [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
 
-## Multiple Terminals
-
-![Mac Example](screenshot.png)
