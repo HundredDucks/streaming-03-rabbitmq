@@ -1,10 +1,9 @@
 """
 
-Always customize this docstring. 
+Zach Fuller
+08/26/2023
 
-Add your name, date, and a description of the program.
-
-Listens for messages on the queue.
+Listens for messages on the queue which are sent from the file v2_emit_message.py.
 This process runs continously. 
 
 Approach
@@ -89,6 +88,6 @@ def main(hn: str = "localhost"):
 # without executing the code below.
 # If this is the program being run, then execute the code below
 if __name__ == "__main__":
-    main("localhostttt")
+    main("localhost")
   
      
